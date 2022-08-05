@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.main-container{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: auto;
+    background-color:  rgba(193, 187, 172, 0.97);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 45%;
+    height: 25vmax;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, .3) 0px 4px 8px 10px;
+    
+}
+
+.form-container{
+    margin-left: 2rem;
+    width: 45%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, .3) 0px 4px 8px 10px;
+}
+
+.form-container-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 0.6rem;
+}
+
+.form-container-1-1{
+    width: 50%;
+}
+.form-container-1-1 > p{
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:900;
+}
+
+.form-container-1-1 > input{
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    width: 90%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.form-container-1-2 > p{
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:900;
+}
+
+.form-container-1-2 > input{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    width: 90%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.form-container-1-2{
+    width: 50%;
+}
+
+.form-container-2 {
+   width: 100%;
+   margin-top: 0.5rem;
+}
+
+.form-container-2 >p{
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:900;
+}
+.form-container-2 >input{
+    font-size: 1.4rem;
+    width: 45%;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.form-container-3{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.form-container-3 >p{
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:900;
+}
+.form-container-3 >textarea{
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+
+.submit-button {
+    align-items: center;
+    background-image: linear-gradient(#464d55, #25292e);
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+    height: 52px;
+    justify-content: center;
+    line-height: 1;
+    margin-top: 1.2rem;
+    outline: none;
+    overflow: hidden;
+    padding: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all 150ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+    opacity: .85;
+  }
+  
+  .submit-button:active {
+    outline: 0;
+  }
+  
+  .submit-button:focus {
+    box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+  }
+  
+  @media (max-width: 600px) {
+    .submit-button {
+      height: 48px;
+    }
+  }
+
+
+@media (max-width: 600px) {
+    
+    .main-container{
+        height: auto;
+        width: 100%;
+    }
+
+    .image{
+        width: 95%;
+        height: 31vmax;
+    }
+
+    .form-container{
+        margin-top: 0.9rem;
+        width: 95%;
+        margin-left: 0px;
+    }
+
+    .form-container-1-1 >p{
+        font-size: 1rem;
+    }
+
+    .form-container-1-1 >input{
+        font-size: 1.2rem;
+    }
+
+    .form-container-1-2 >p{
+        font-size: 1rem;
+    }
+
+    .form-container-1-2 >input{
+        font-size: 1.2rem;
+    }
+
+    .form-container-2 >p{
+        font-size: 1rem;
+    }
+
+    .form-container-2 >input{
+        font-size: 1.2rem;
+    }
+
+    .form-container-3 {
+        width: 95%;
+    }
+    .form-container-3 >textarea{
+        font-size: 0.8rem;
+    }
+
+    .form-container-3 >p{
+        font-size: 1rem;
+    }
+
+    .submit-button{
+        width: 100%;
+        margin: 0;
+        margin-top:1.3rem ;
+    }
+  
+
+}
+
+@media only screen and (min-width:600px) and (max-width:900px){
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image{
+        width: 85%;
+        margin-bottom: 2rem;
+        height: auto;
+    }
+
+    .image >img{
+        width: 100%;
+    }
+
+    .form-container{
+       width: 90%;
+       margin-left: 0px;
+       margin-bottom: 2rem;
+    }
+
+    .form-container-1-1 >p{
+        font-size: 2rem;
+    }
+
+    .form-container-1-1 >input{
+        font-size: 1.9rem;
+    }
+
+    .form-container-1-2 >p{
+        font-size: 2rem;
+    }
+    .form-container-1-2 >input{
+        font-size: 1.9rem;
+    }
+
+    .form-container-2 >p{
+        font-size: 2rem;
+    }
+
+    .form-container-2 >input{
+        font-size: 1.9rem;
+    }
+
+    .form-container-3 >p{
+        font-size: 2rem;
+    }
+
+    .form-container-3 >textarea{
+        font-size: 1.9rem;
+        width: 90%;
+    }
+
+    .submit-button{
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        margin-top: 1.3rem;
+        font-size: 3.3rem;
+        padding: 2.3rem;
+    }
+}

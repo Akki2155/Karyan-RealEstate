@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.home-content{
+    width: 90%;
+    text-align: justify;
+}
+
+.home-content > p{
+    font-size: 1.3rem;
+    margin: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.home-banner{
+    height: 7vmax;
+    width: 100%;
+    background-image: linear-gradient(#464d55, #25292e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-banner >h1{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.home-banner >p{
+    color: rgb(149, 210, 149);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.home-features{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-feature-container{
+    display: grid;
+    background-color: white;
+    width: 95%;
+    height: auto;
+    padding: 1.5rem;
+    grid-template-columns: auto auto auto auto; 
+    align-items: center;
+    
+}
+
+
+.home-feature-holder{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+@media (max-width: 600px){
+
+    .home-banner{
+        height: 20vmax;
+    }
+     .home-content>p{
+        font-size: 1rem;
+     }
+    .home-banner >h1{
+        font-size: 1.5rem;
+    }
+
+    .home-banner>p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .home-feature-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .home-feature-holder{
+        margin: 0.5rem;
+    }
+   
+
+}
+
+
+@media only screen and (min-width:600px) and (max-width:900px){
+
+    .home-banner{
+        height: 20vmax;
+    }
+
+   .home-banner>h1{
+    font-size: 3.2rem;
+    }
+.home-feature-container{
+    grid-template-columns: auto auto;
+    }
+
+.home-content>p{
+    font-size: 2rem;
+}
+}

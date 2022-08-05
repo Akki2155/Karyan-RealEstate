@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.sidebar-list{
+    position: absolute;
+    padding: 2rem;
+    padding-top: 3rem;
+    border-top-left-radius: 1.8rem;
+    right: 0;
+    top:6rem;
+    background-color: black;
+    height: 90vmax;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    animation: slidein 1sec ease-in;
+}
+
+.link-button{
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(#464d55, #25292e);
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    height: 52px;
+    justify-content: center;
+    line-height: 1;
+    margin: 1.2rem;
+    outline: none;
+    overflow: hidden;
+    padding: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all 150ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .link-button:hover {
+    box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+    opacity: .85;
+  }
+  
+  .link-button:active {
+    outline: 0;
+  }
+  
+  .link-button:focus {
+    box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+  }
+ 
+
+
+@media only screen and (min-width:600px) and (max-width:1300px)
+{
+    .sidebar-list{
+        top:10rem;
+        width: 25rem;
+        padding-top: 9rem;
+    }
+
+    .link-button{
+      font-size: 2rem;
+      width: 100%;
+      height: 6rem;
+    }
+}
